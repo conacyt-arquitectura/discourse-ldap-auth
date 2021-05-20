@@ -1,5 +1,5 @@
 class LDAPUser
-  attr_reader :name, :email, :username, :user
+  attr_reader :name, :email, :username, :user, :displayName
 
   def initialize (auth_info)
     @name = auth_info[:displayName]
